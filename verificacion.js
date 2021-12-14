@@ -1,5 +1,9 @@
-let peso = Number (prompt("ingrese su peso en Kg"))
-let altura = Number (prompt("ingrese su altura en m"))
+do{
+    peso = Number (parseInt(prompt("ingrese su peso en Kg")))
+} while (isNaN (peso))
+do{
+    altura = Number (parseInt(prompt("ingrese su altura en m")))
+} while (isNaN (altura))
 let imc = peso/(altura*altura)
 if(imc< 18.5)
     { respuesta="usted esta bajo de peso"
