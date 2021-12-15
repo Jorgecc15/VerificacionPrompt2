@@ -32,3 +32,4 @@ if(imc< 18.5)
 }
 }
 document.getElementById("parrafopeso").innerHTML=respuesta
+console.log(imc)
