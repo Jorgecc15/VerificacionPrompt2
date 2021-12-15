@@ -1,8 +1,8 @@
 do{
-    peso = Number (parseInt(prompt("ingrese su peso en Kg")))
+    peso = parseInt(prompt("ingrese su peso en Kg"))
 } while (isNaN (peso))
 do{
-    altura = Number (parseInt(prompt("ingrese su altura en m")))
+    altura = parseInt(prompt("ingrese su altura en m"))
 } while (isNaN (altura))
 let altura2 = altura*altura
 let imc = peso / altura2
