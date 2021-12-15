@@ -4,7 +4,8 @@ do{
 do{
     altura = Number (parseInt(prompt("ingrese su altura en m")))
 } while (isNaN (altura))
-let imc = peso / altura*altura
+let altura2 = altura*altura
+let imc = peso / altura2
 if(imc< 18.5)
     { respuesta="usted esta bajo de peso"
 }else{
